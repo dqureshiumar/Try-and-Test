@@ -11,3 +11,10 @@ new command test
 git checkout feat -- important-changes
 git checkout -- one.md
 changes on feat2
+git commit -m "[one.md] add part one"  - pattern to follow
+git revert commitID
+
+git reset --hard HEAD
+git reset --soft HEAD
+
+git stash
