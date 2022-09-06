@@ -1,0 +1,10 @@
+git restore -staged filename
+git reset --hard HEAD~1
+git log --oneline
+gitk
+git commit -amend.. something
+git diff
+git diff --staged
+to see commit - git show commit_ID
+git branch branchname
+new command test
