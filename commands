@@ -8,3 +8,4 @@ git diff --staged
 to see commit - git show commit_ID
 git branch branchname
 new command test
+git checkout feat -- important-changes
