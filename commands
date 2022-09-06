@@ -1,6 +1,6 @@
 git restore -staged filename
 git reset --hard HEAD~1
-git log --oneline
+git log --oneline --decorate --graph --all
 gitk
 git commit -amend.. something
 git diff
@@ -9,4 +9,5 @@ to see commit - git show commit_ID
 git branch branchname
 new command test
 git checkout feat -- important-changes
+git checkout -- one.md
 changes on feat2
