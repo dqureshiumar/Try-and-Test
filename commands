@@ -21,3 +21,5 @@ git stash
 
 cherrypick
     :-  git cherrypick commitID
+
+git remote rm origin
